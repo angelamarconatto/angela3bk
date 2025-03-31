@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Monsieur+La+Doulaise&display=swap');
+
+:root {
+    --fonte-primaria: "Monsieur La Doulaise", cursive;
+    --fonte-secundaria: "Lavishly Yours", cursive;
+    --platinum: #d8e2dcff;
+--champagne-pink: #ffe5d9ff;
+--pink: #ffcad4ff;
+--cherry-blossom-pink: #f4acb7ff;
+}
