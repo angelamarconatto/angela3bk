@@ -3,8 +3,77 @@
 :root {
     --fonte-primaria: "Monsieur La Doulaise", cursive;
     --fonte-secundaria: "Lavishly Yours", cursive;
-    --platinum: #d8e2dcff;
---champagne-pink: #ffe5d9ff;
---pink: #ffcad4ff;
---cherry-blossom-pink: #f4acb7ff;
+    --branco: #d8e2dcff;
+    --rosa-champanhe: #ffe5d9ff;
+    --rosa: #ffcad4ff;
+    --flor-cerejeira-rosa: #f4acb7ff;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.titulo-principal {
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+
+}
+
+.titulo-principal span {
+    color: var(--flor-cerejeira-rosa)
+}
+
+.botao {
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--botao-inativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-ativo);
+    border-left: 4px solid var(--botao-ativo);
+    border-right: 4px solid var(--botao-ativo);
+    border-top: none;
+
+}
+
+.botoes {
+    display: block;
+
+}
+
+.botao:first-child {
+    border-radius: 40px 40px 0 0;
+
+}
+
+.botao:last-child {
+    border-radius: 0 40px 0 0;
+}
+
+.ativo {
+    border-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--rosa-champanhe);
 }
